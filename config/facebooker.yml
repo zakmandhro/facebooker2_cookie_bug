@@ -1,0 +1,19 @@
+test:
+  app_id: _USE_YOUR_OWN_
+  secret: _USE_YOUR_OWN_
+  api_key: _USE_YOUR_OWN_
+  
+development:
+  app_id: _USE_YOUR_OWN_
+  secret: _USE_YOUR_OWN_
+  api_key: _USE_YOUR_OWN_
+ 
+staging:
+  app_id: _USE_YOUR_OWN_
+  secret: _USE_YOUR_OWN_
+  api_key: _USE_YOUR_OWN_
+ 
+production:
+  app_id: _USE_YOUR_OWN_
+  secret: _USE_YOUR_OWN_
+  api_key: _USE_YOUR_OWN_

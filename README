@@ -1,0 +1,4 @@
+This project was created to reproduce a bug with Facebooker2 <= 0.0.8
+related to cookie being lost on redirect.
+
+See https://github.com/mmangino/facebooker2/issues/34
