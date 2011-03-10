@@ -7,29 +7,7 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<script> 
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId  : '136a2644b168922f7974a27165cda8e9',
-      status : true, // check login status
-      cookie : true, // enable cookies to allow the server to access the session
-      xfbml  : true  // parse XFBML
-    });
-    
-  };
-
-  (function() {
-    var s = document.createElement('div'); 
-    s.setAttribute('id','fb-root'); 
-    document.documentElement.getElementsByTagName("body")[0].appendChild(s);
-    var e = document.createElement('script');
-    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
-    e.async = true;
-    s.appendChild(e);
-  }());
-</script>
-
+<%= fb_connect_async_js %>
 <% if current_facebook_user %>
    <%= "Hello #{fb_name(current_facebook_user, :useyou => false)}!".html_safe # link to facebook profile
     %>
