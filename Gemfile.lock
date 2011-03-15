@@ -33,7 +33,7 @@ GEM
     crack (0.1.8)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    facebooker2 (0.0.8)
+    facebooker2 (0.0.10)
       mogli (>= 0.0.12)
       ruby-hmac
     httparty (0.7.4)
